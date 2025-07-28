@@ -1,6 +1,4 @@
 [core]
-    remote = myremote
-['remote "myremote"']
-    url = ../s3
-['remote "newremote"']
-    url = https://test28072025.blob.core.windows.net/sample?sp=r&st=2025-07-28T09:14:07Z&se=2025-07-28T17:29:07Z&spr=https&sv=2024-11-04&sr=c&sig=eXaV4Jn7UKJDZx%2B4eJJLcv1pelJZ7uFJT%2FVUIZDSNCg%3D
+    remote = azureexport
+['remote "azureexport"']
+    url = azure://sample
